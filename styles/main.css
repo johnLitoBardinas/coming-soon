@@ -116,8 +116,7 @@ h1,
 }
 
 .container .right .mainInfo h1 {
-  font-size: 2em;
-  margin-left: 1em;
+  font-size: 5em;
 }
 
 @media screen and (max-width: 576px) {
@@ -128,7 +127,7 @@ h1,
 
 .container .right .mainInfo .slogan {
   width: 50vw;
-  margin-top: 1.5em;
+  /* margin-top: 1.5em; */
   color: #6d6464;
 }
 
@@ -258,27 +257,17 @@ button,
   content: "\f16d";
 }
 
-.github::before {
-  font-family: "Font Awesome 5 Brands";
-  content: "\f09b";
-}
-
-.stackoverflow::before {
-  font-family: "Font Awesome 5 Brands";
-  content: "\f16c";
-}
-
 .youtube::before {
   font-family: "Font Awesome 5 Brands";
   content: "\f167";
 }
 
-.medium::before {
-  font-family: "Font Awesome 5 Brands";
-  content: "\f23a";
-}
-
 .linkedin::before {
   font-family: "Font Awesome 5 Brands";
   content: "\f08c";
+}
+
+.patreon::before {
+  font-family: "Font Awesome 5 Brands";
+  content: "\f3d9"; /* Patreon icon */
 }
